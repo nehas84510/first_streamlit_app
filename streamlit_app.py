@@ -48,3 +48,6 @@ my_display=my_cur.fetchall()
 streamlit.text("The fruit load list contains :")
 streamlit.dataframe(my_display)
 
+
+input=streamlit.text_input("What fruit you would like to add?","kiwi")
+streamlit.text("thanks for adding" + input )
