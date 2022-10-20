@@ -85,5 +85,5 @@ if streamlit.button("add a fruit to the list"):
    return_2= insert_row_snowflake(input)
    streamlit.text(return_2)
 
-my_cur.execute("insert into fruit_load_list values('from stream_lit')")
+#my_cur.execute("insert into fruit_load_list values('from stream_lit')")
 
