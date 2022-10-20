@@ -45,4 +45,6 @@ streamlit.text(my_data_row)
 
 my_cur.execute("select * from fruit_load_list")
 my_display=my_cur.fetchone()
-stremlit.text(my_display)
+streamlit.text("The fruit load list contains :")
+streamlit.text(my_display)
+
